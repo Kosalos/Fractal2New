@@ -27,7 +27,7 @@ void WriteToBmp(const char* inFilePath);
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
 	switch (message) {
-	case WM_EXITSIZEMOVE:
+	case WM_SIZE :
 		windowSizePositionChanged();
 		return 0;
 	case WM_IME_NOTIFY:

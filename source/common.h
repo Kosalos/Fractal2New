@@ -1,7 +1,7 @@
 // Control structure definition for HLSL
 
 // fxc compiler is very slow. Define this to have only one fractal equation.
-#define DEVLOPEMENT_SINGLE_FRACTAL 
+//#define DEVLOPEMENT_SINGLE_FRACTAL 
 
 #ifdef SHADER
 #define FLOAT4 float4
